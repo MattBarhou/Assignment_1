@@ -1,0 +1,45 @@
+/*Matthew Barhou, 301193037, 2023-09-09 */
+
+body {
+    height: 100vh;
+}
+
+.nav-link {
+    color: rgb(204, 131, 131);
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+
+.nav-logo {
+    border-radius: 3rem;
+    margin-left: 4rem;
+}
+
+
+.home-btn {
+    background-color: #2a453e;
+    color: #fff;
+}
+
+.home-btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
