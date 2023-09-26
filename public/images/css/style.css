@@ -1,45 +1,35 @@
 /*Matthew Barhou, 301193037, 2023-09-09 */
 
 body {
-    height: 100vh;
+  height: 100vh;
+  background-image: url("/images/starfall.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
 }
 
 .nav-link {
-    color: rgb(204, 131, 131);
-    font-size: 20px;
+  color: rgb(183, 176, 176);
+  font-size: 24px;
 }
 
 .nav-link:hover {
-    color: red;
+  color: #fff;
 }
-
 
 .nav-logo {
-    border-radius: 3rem;
-    margin-left: 4rem;
+  border-radius: 3rem;
+  margin-left: 4rem;
 }
 
-
 .home-btn {
-    background-color: #2a453e;
-    color: #fff;
+  background-color: #888a89;
+  color: #fff;
 }
 
 .home-btn:hover {
-    background-color: black;
-    color: #fff;
+  background-color: black;
+  color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

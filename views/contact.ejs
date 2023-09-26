@@ -1,25 +1,41 @@
 <%- include("partials/header"); -%>
 
-<div class="container">
-    <h3 class="mt-3">Want to send me a message? Fill out this form!</h3>
-    
-    <form>
-        <div class="mb-3 mt-5">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+    <!-- Form for the user to enter contact info, then console.log the results -->
+    <section id="user-form">
+        <div class="container">
+            <h2 class="mt-3">Want to send me a message? Fill out this form!</h2>
+            <form method="POST" class="border rounded-3 shadow-lg p-3">
+                <div class="mb-3 mt-5">
+                    <label class="form-label">First Name</label>
+                    <input type="text" name="fName" required class="form-control">
+                </div>
+
+                <div class="mb-3 mt-5">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" name="lName" required class="form-control">
+                </div>
+
+                <div class="mb-3 mt-5">
+                    <label class="form-label">Phone Number</label>
+                    <input type="number" name="phone" required class="form-control">
+                </div>
+
+                <div class="mb-3 mt-5">
+                    <label class="form-label">Email</label>
+                    <input type="email" name="email" required class="form-control">
+                </div>
+
+                <div class="mb-3 mt-5">
+                    <label class="form-label">Password</label>
+                    <input type="password" name="password" required class="form-control">
+                </div>
+
+                <button type="submit" class="btn mb-4 btn-primary">Submit</button>
+            </form>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn mb-4 btn-primary">Submit</button>
-    </form>
-</div>
+    </section>
 
 
-<%- include("partials/footer"); -%>
+
+    <%- include("partials/footer"); -%>
